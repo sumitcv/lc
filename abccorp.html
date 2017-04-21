@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8">
+    <title>AbcCorp.com</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="justified-nav.css" rel="stylesheet">
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="masthead">
+        <h3 class="text-muted">Abc Corp</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      
+      <div class="jumbotron">
+        <h1>NFS GAMES</h1>
+        <p class="lead">It’s called The Run. An illicit, high-stakes race across the country. The only way to get your life back is to be the first from San Francisco to New York.No speed limits. No rules. No allies..... and willing – to use lethal force to take you down.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Click to Demo</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        
+        <div class="col-lg-4">
+          <h2>AOne</h2>
+          <p class="text-danger"> </p>
+          <p><a class="btn btn-primary" href="index_html_css/index.html role="button" onclick="send_vender_info()">BUY NOW</a></p>
+          <script type="text/javascript" language="javascript">
+
+          function send_vander_info()
+          {
+              var url = "index.html";
+              var method = "GET";
+              var postData = "xzxzxzxzxzxzxzxzxxzxzxzxzzxzxzxzxzxzx";
+              var async = true;
+
+              var request = new XMLHttpRequest();
+             
+              request.open(method, url, async);
+              request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+              // Or... request.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");
+              // Or... whatever
+
+              // Actually sends the request to the server.
+              request.send(postData);
+              }
+          </script>
+
+        </div>
+
+        <div class="col-lg-4">
+          <h2>ATwo</h2>
+          <p> </p>
+          <p><a class="btn btn-primary" href="#" role="button">BUY NOW </a></p>
+       </div>
+
+        <div class="col-lg-4">
+          <h2>AThree</h2>
+          <p></p>
+          <p><a class="btn btn-primary" href="#" role="button">BUY NOW </a></p>
+        </div>
+      </div>
+
+
+      <footer class="footer">
+        <p> </p>
+      </footer>
+
+    </div>
+  </body>
+</html>
